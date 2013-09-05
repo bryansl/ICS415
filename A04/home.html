@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home</title>
+		
+		<style>
+			a:link{color:red;}
+			a:visited{color:yellow;}
+			a:hover{color:green;}
+			html{height:100%;background:blue;}
+			body{height:100%;color:lightblue;}
+			body>table{width:100%;height:100%;background:grey;}
+			table{background:purple;}
+			thead{height:10%;vertical-align:top;}
+			#maincontent{vertical-align:top;color:lightgreen;}
+			#summary{width:25%;color:orange;}
+		</style>
+	</head>
+
+	<body>
+		<table border = "1" bordercolor="red">
+			<thead align="left">
+				<th colspan="2">
+					<h1>Bryan's Cool Website</h1>
+				</th>
+			</thead>
+			<tr>
+				<td colspan="2" height="50">
+					<a href="home.html">Home</a>
+					<a href="forms.html">Forms</a>
+				</td>
+			</tr>
+			<tr id="maincontent">
+				<td id="summary">
+					<h3>Summary Window</h3>
+					<p>
+						HTML supports tables.
+						<br/>
+						<br/>
+						HTML supports three different types of lists; unordered, ordered, and description.
+					</p>
+				</td>
+				<td>
+					<h3>Home Page</h3>
+					
+					<p>Tables:</p>
+					
+					<table border="0">
+						<caption>Borderless table</caption>
+						<th>
+							Header
+						</th>
+						<tr>
+							<td>Cell</td>
+						</tr>
+					</table>
+
+					<table border="1">
+						<caption>Bordered Table</caption>
+						<th>
+							Header 1
+						</th>
+						<th>
+							Header 2
+						</th>
+						<tr>
+							<td>row 1, cell 1</td>
+							<td>row 1, cell 2</td>
+						</tr>
+						<tr>
+							<td>row 2, cell 1</td>
+							<td>row 2, cell 2</td>
+						</tr>
+						<tfoot>
+							<td>footer 1</td>
+							<td>footer 2</td>
+						</tfoot>
+					</table>
+
+					<p>Lists:</p>
+
+					<ul>
+						<li>Coffee</li>
+						<li>Milk</li>
+					</ul>
+
+					<ol>
+						<li>Coffee</li>
+						<li>Milk</li>
+					</ol>
+					
+					<dl>
+						<dt>Coffee</dt>
+							<dd>black hot drink</dd>
+						<dt>Milk</dt>
+							<dd>white cold drink</dd>
+					</dl>
+
+					Here's a two column layout with header, navigation bar and footer sections.
+					There is a fairly large header and narrow horizontal navigation bar.
+					<br/>
+					<br/>The Main section of the website has a left-hand.
+				</td>
+			</tr>
+			<tfoot>
+				<td colspan="2" align="center" height="50">Copyright(c) Bryan Shito-Leong</td>
+			</tfoot>
+		</table>
+	</body>
+</html>

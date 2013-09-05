@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Forms</title>
+		
+		<style>
+			a:link{color:red;}
+			a:visited{color:yellow;}
+			a:hover{color:green;}
+			html{height:100%;background:blue;}
+			body{height:100%;color:lightblue;}
+			body>table{width:100%;height:100%;background:grey;}
+			table{background:purple;}
+			thead{height:10%;vertical-align:top;}
+			#maincontent{vertical-align:top;color:lightgreen;}
+			#summary{width:25%;color:orange;}
+		</style>
+	</head>
+
+	<body>
+		<table border = "1" bordercolor="red">
+			<thead align="left">
+				<th colspan="2">
+					<h1>Bryan's Cool Website</h1>
+				</th>
+			</thead>
+			<tr>
+				<td colspan="2" height="50">
+					<a href="home.html">Home</a>
+					<a href="forms.html">Forms</a>
+				</td>
+			</tr>
+			<tr id="maincontent">
+				<td id="summary">
+					<h3>Forms Summary</h3>
+					<p>
+						HTML forms support several different tyes of input.
+					</p>
+				</td>
+				<td>
+					<p>
+						<h3>Forms Page</h3>
+
+						The following is a text input:
+						
+						<form name="userinput" action="forms.html" method="get">
+						Username:<input type="text" name="user">
+						</form>
+
+						Then a password input:
+
+						<form name="passinput" action="forms.html" method="get">
+						Password:<input type="password" name="pass">
+						</form>
+
+						We can have radio buttons:
+
+						<form name="radioinput" action="forms.html" method="get">
+						<input type="radio" name="sex" value="Male">Male
+						<br/>
+						<input type="radio" name="sex" value="Female">Female
+						</form>
+
+						Or checkboxes:
+
+						<form name="checkinput" action="forms.html" method="get">
+						<input type="checkbox" name="vehicle" value="Car">Car
+						<br/>
+						<input type="checkbox" name="vehicle" value="Bike">Bike
+						</form>
+
+						<br/>
+						We can now use the new HTML5 input fields.<br/>
+						Such as:
+						<br/>
+						<form name="colorinput" action="forms.html" method="get">
+						Color: <input type="color" name="favoritecolor">
+						</form>
+						
+						<form name="dateinput" action="forms.html" method="get">
+						Date: <input type="date" name="date">
+						</form>
+						
+						<form name="datetimeinput" action="forms.html" method="get">
+						Date and Time: <input type="datetime" name="bdaytime">
+						</form>
+						
+						<form name="emailinput" action="forms.html" method="get">
+						E-mail: <input type="email" name="email">
+						</form>
+						
+						<form name="monthinput" action="forms.html" method="get">
+						Month: <input type="month" name="month">
+						</form>
+						
+						<form name="numberinput" action="forms.html" method="get">
+						Number: <input type="number" name="number">
+						</form>
+						
+						<form name="rangeinput" action="forms.html" method="get">
+						Range: <input type="range" name="range" min="1" max="10">
+						</form>
+						
+						<form name="searchinput" action="forms.html" method="get">
+						Search: <input type="search" name="search">
+						</form>
+						
+						<form name="urlinput" action="forms.html" method="get">
+						URL: <input type="url" name="url">
+						</form>
+						
+						<br/>
+						And finally a submit button:
+
+						<form name="input5" action="forms.html" method="get">
+						<input type="submit" value="Submit">
+						</form>
+					</p>
+				</td>
+			</tr>
+			<tfoot>
+				<td colspan="2" align="center" height="50">Copyright(c) Bryan Shito-Leong</td>
+			</tfoot>
+
+		</table>
+	</body>
+</html>
