@@ -1,0 +1,30 @@
+.question
+{
+	background-color: #C0C0C0;
+}
+
+.question:hover
+{
+	background-color: #A0A0A0;
+}
+
+ul
+{
+	list-style:none;
+}
+
+dt
+{
+	border:2px solid;
+	border-radius:6px;
+}
+
+.status
+{
+color:blue;
+}
+
+html body
+{
+	background-color: #E0E0E0;
+}
