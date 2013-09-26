@@ -1,0 +1,15 @@
+table{
+	width:200px;
+}
+
+th, td{
+	width:50%;
+}
+
+.results{
+	float:left;
+}
+
+.jsList{
+	float:left;
+}
