@@ -1,0 +1,16 @@
+#comment{
+	width:50%;
+}
+
+#commentDiv{
+	width:50%;
+}
+
+.invalid
+{
+	background-color: red;
+}
+
+#errors{
+	color: red;
+}
